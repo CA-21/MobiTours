@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+	<RadioGroup
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		<RadioButton android:text="@string/radio1" android:id="@+id/radio1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" />
+		<RadioButton android:text="@string/radio2" android:id="@+id/radio2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+		<RadioButton android:text="@string/radio3" android:id="@+id/radio3" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+		<RadioButton android:text="@string/radio4" android:id="@+id/radio4" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+		<RadioButton android:text="@string/radio5" android:id="@+id/radio5" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+	</RadioGroup>
+	
+	<LinearLayout 
+	    style="?android:attr/buttonBarStyle"
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:padding="5dp"
+		android:orientation="horizontal" >
+	    
+	
+		<Button
+		    style="?android:attr/buttonBarButtonStyle"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:id="@+id/rate"
+	        android:text="@string/save"
+	        android:layout_weight="1" >
+	    </Button>
+	    <Button
+	        style="?android:attr/buttonBarButtonStyle"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:id="@+id/cancelrate"
+	        android:text="@string/cancel"
+	        android:layout_weight="1" >
+	    </Button>
+    
+	</LinearLayout>
+	
+</LinearLayout>

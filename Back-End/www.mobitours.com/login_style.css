@@ -1,0 +1,65 @@
+
+body{
+	background-color: #FFFFFF;
+	font: 0.8em "Trebuchet MS", Georgia, Arial;
+	color: #9099ae;
+	text-align: center;
+    margin: 0px 0px 0px 0px;
+	}
+#mybody{
+	width: 100%;
+    color: #E1E2E8;
+	}
+#loginbox{
+	width: 37%;
+	margin: auto auto auto auto;
+	padding:0 0 0 0;
+	float:none;
+	background-color: #CCCFFF;
+	border : solid 1px;
+	}
+#gdgcot_title{
+        width: auto;
+        text-align:center;
+		color:#090;
+        }
+#gdgcot_title p{
+	font-weight:bold;
+}
+
+table{
+	color:#03F;
+    text-align: center;
+	font: 1.3em "Agency FB";
+}
+p{
+	font:1.4em "Agency FB",Georgia,Arial;
+}
+h1, h2{
+  color: auto;
+  background: none;
+  font-weight: normal;
+  margin: 0;
+  padding-top: .2em;
+  padding-bottom: .1em;
+  /* border-bottom: .2em solid #aaa; */
+}
+h1 { font-size: 188%; }
+h2 { font-size: 120%; }
+
+#footer{
+  font-style:"Microsoft Sans Serif";
+  font-size:0.7em;
+  padding-top: auto;
+  border-top:solid 0.1em #CCCFFF;
+  text-align:center;
+}
+/* #footer p{
+	font-size:0.7em;
+	text-transformation:none;
+} */
+#footer a{
+	text-decoration:underline;
+	color:#0033ff;
+}
+

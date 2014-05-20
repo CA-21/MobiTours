@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" >
+     
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:width="250dip"
+        android:hint="@string/mailaddress"
+        android:id="@+id/address">
+    </EditText>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:width="250dip"
+        android:hint="@string/subject"
+        android:id="@+id/subject">
+    </EditText>
+ 
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:lines="6"
+        android:hint="@string/enter_msg"
+        android:id="@+id/body">
+    </EditText>
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/send"
+        android:text="@string/sendmail"
+        android:width="150dip">
+    </Button>
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:background="@drawable/list_wiki_selector"
+    android:orientation="horizontal"
+    android:padding="3dip" >
+    
+    <!-- Listrow left for the image -->
+    <LinearLayout 
+        android:id="@+id/wiki_thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dip"
+        android:background="@drawable/wk_image_bg"
+        android:padding="3dip" >
+        <ImageView 
+            android:id="@+id/wiki_img"
+            android:contentDescription="@string/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:src="@drawable/historia"
+            />
+    </LinearLayout>
+    <!-- The title of the List Item -->
+    <TextView 
+        android:id="@+id/wikititle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/wiki_thumbnail"
+        android:layout_toRightOf="@+id/wiki_thumbnail"
+        android:textColor="#040404"
+        android:textIsSelectable="false"
+        android:typeface="sans"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+    <!-- The details of the Item -->
+	
+    
+</RelativeLayout>

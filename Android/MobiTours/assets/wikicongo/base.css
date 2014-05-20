@@ -1,0 +1,306 @@
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: Helvetica, sans-serif;
+  font-size: 100%;
+  background: #FFF;
+}
+
+body {
+  padding: 10px;
+  line-height: 20px;
+  color: #5E5E5E;
+}
+
+a:link {
+  color: #555;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #555;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+br {
+  display: block;
+  margin-bottom: 20px;
+}
+
+
+
+/* HEADERS :::::::::::::::::::::::::::::::::::::::::::::::::::: */
+h1 {
+  font-weight: 500;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #555;
+  font-family: Arial, sans-serif;
+  font-size: 128%;
+}
+
+h2 {
+  color: #555;
+  font-size: 142%;
+  font-weight: 500;
+  border-bottom: 1px solid #555;
+  padding: 4px 0 5px 0;
+  margin: 10px 0 10px 0;
+}
+
+h3 {
+  margin: 0;
+  padding: 12px 0 8px 0;
+  color: #555;
+  font-weight: 700;
+  font-family: Arial, sans-serif;
+  font-size: 114%;
+  vertical-align: bottom;
+}
+
+dt {
+    margin-left:0%;
+    width:95%;
+}
+
+dd {
+    margin-left:10%;
+    width:85%;
+}
+
+.subheader {
+}
+
+.heading-closed {
+  background: transparent url("show.png") no-repeat right 4px;
+  padding-right: 60px;
+}
+
+.heading-open {
+  background: transparent url("hide.png") no-repeat right 4px;
+  padding-right: 60px;
+}
+
+
+
+/* TABLE ::::::::::::::::::::::::::::: */
+
+table.addressbox {
+  width: 100%;
+  padding: 0 0 20px 0;
+}
+
+td {
+  padding: 8px 10px 6px 0;
+}
+
+td.props {
+  width: 40%;
+  font-weight: 700;
+  color: #333;
+}
+
+tr:nth-child(even) {
+  background-color: #ddd;
+}
+
+table.addressbox tr:nth-child(even) {
+  background-color: inherit;
+}
+
+td.header {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 0;
+  color: #FFF;
+  text-transform: uppercase;
+  vertical-align: middle;
+  letter-spacing: 2px;
+  font-family: Arial, sans-serif;
+  font-size: 142%;
+}
+
+a.header {
+  color: #FFF;
+  font-family: Arial, sans-serif;
+  font-size: 78%;
+  text-decoration: none;
+}
+
+.sources {
+  margin: 0;
+  padding: 24px 0 12px 0;
+  font-family: Helvetica, sans-serif;
+  font-size: 100%;
+  background: #FFF;
+  color: #111;
+}
+
+.sources b { display: block;}
+
+.intro {
+  font-family: Helvetica, sans-serif;
+  font-size: 100%;
+}
+
+li, description.li {
+  background: transparent url('li.png') no-repeat left 4px;
+  font-size: 100%;
+  padding-left: 20px;
+  padding-bottom: 8px;
+}
+
+ul, ul.description {
+  padding-left: 0px;
+  list-style: none;
+}
+
+
+
+.clear {
+  /* generic container (i.e. div) for floating buttons */
+  overflow: hidden;
+  width: 100%;
+}
+
+.lip {
+  display: block;
+  float: left;
+  padding-left: 2px;
+  padding-top: 10px;
+  margin-top: 1px;
+  width: 18px;
+}
+
+.poidetails {
+  clear: both;
+}
+
+.description {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 107%;
+  clear: both;
+  display: block;
+  padding-left: 22px;
+  line-height: 1.3em;
+  background: #FFF;
+  color: #111;
+}
+
+.longdescription {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 85%;
+  clear: both;
+  display: block;
+  padding-left: 0px;
+  line-height: 1.3em;
+  background: #FFF;
+  padding-right: 8px;
+  color: #555;
+}
+
+.heading {
+  position: relative;
+  top: 1px;
+}
+
+#container {
+  min-height: 100%;
+  min-width: 320px;
+  margin: 0 auto;
+  position: absolute;
+  top: 0px;
+}
+
+
+
+blockquote {
+  margin-left: 1.3em;
+  margin-right: .7em;
+  margin-top: .7em;
+  margin-bottom: 1.9em;
+}
+
+blockquote:before, blockquote:after {
+  color: #999;
+  font-size: 400%;
+  line-height: .01em;
+}
+
+blockquote:before {
+  content: '\201C';
+  display: inline;
+  margin-right: .20em;
+  vertical-align: -.4em;
+}
+
+blockquote:after {
+  content: '\201D';
+  display: block;
+  float: right;
+  padding-top: .45em;
+  margin-left: .05em;
+}
+
+table.climate {
+  width: 100%
+}
+
+.climate th {
+  font-size: 80%;
+}
+
+/* ABOUT ::::::::::::::::::::::::::::: */
+
+body.about {
+  background: #FFF;
+  padding: 0.5em;
+}
+
+.about>div {
+  background: #FFF;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.about h3 {
+  color: #444;
+  background: #FFF;
+  padding-left: 5px;
+  font-size: 128%;
+  font-weight: normal;
+}
+
+.about p {
+  background: #EEE;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.about a.standalone {
+  line-height: 2em;
+}
+
+.about .button {
+  display: block;
+}
+
+.about .whatsnew-version {
+  font-weight: 700;
+}
+
+.about .detailsdrc {
+  font-weight: 700;
+}
+
+.about .whatsnew-data {
+  font-weight: 700;
+}

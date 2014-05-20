@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#99FFFFFF"
+    android:orientation="vertical" >
+    
+               
+            <!-- Place for the fragment -->
+            <LinearLayout 
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:orientation="vertical"
+		        android:layout_weight="1" >
+		        <FrameLayout
+			        android:id="@+id/fraglisthotel"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content" />
+	        </LinearLayout>
+	        <!-- place for the buttons --> 
+	        <LinearLayout 
+	            style="?android:buttonBarStyle"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="bottom"
+		        android:orientation="horizontal"
+		        android:layout_weight="1" > 
+		        <ImageButton 
+		            style="?android:borderlessButtonStyle"
+		            android:layout_width="48dp"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="1"
+		            android:id="@+id/imgbtlist"
+		            android:src="@drawable/fgm_listview_btn"
+		            android:contentDescription="@string/fglist" />
+		        <ImageButton 
+		            style="?android:borderlessButtonStyle"
+		            android:layout_width="48dp"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="1"
+		            android:id="@+id/imgbtmap"
+		            android:src="@drawable/fgm_mapview_btn"
+		            android:contentDescription="@string/fgmap" />		                
+			</LinearLayout>    
+
+</LinearLayout>

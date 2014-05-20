@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Theme.Sherlock"
+       
+    >
+	
+	<item 
+	    android:id="@+id/hpin"
+	    android:title="@string/Pin"
+	    android:icon="@drawable/findme"
+	    android:showAsAction="ifRoom"
+	    style="@style/Theme.Sherlock" />
+	
+	<item 
+	    android:id="@+id/hmaps"
+	    android:title="@string/Maps"
+	    android:icon="@drawable/mapworld"
+	    android:showAsAction="ifRoom"
+	    style="@style/Theme.Sherlock" />
+	
+	<item
+	    android:id="@+id/hsearch"
+	    android:title="@string/Search"
+	    android:icon="@drawable/ic_button_search"
+	    android:showAsAction="ifRoom"
+	    style="@style/Theme.Sherlock"  />
+	
+	<item
+	    android:id="@+id/hquit"
+	    android:title="@string/quit"
+	    android:icon="@drawable/exit"
+	    android:showAsAction="never"
+	    style="@style/Theme.Sherlock" />
+	
+</menu>
